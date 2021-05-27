@@ -1,0 +1,12 @@
+<h1> 입력한 텍스트 전문</h1>
+<div>
+    {{fulltext}}
+</div>
+<h2>무른모팀의 인원은 총{{count}}명 입니다.</h2>
+<div>
+    {% for word in wordList %}
+    <h3>어서오세요. 무른모 팀의 {{word}}님!</h3>
+    <br>
+    {% endfor %}
+</div>
+
